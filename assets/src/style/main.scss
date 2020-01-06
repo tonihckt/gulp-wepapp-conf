@@ -1,6 +1,15 @@
-// Anula los valores predeterminados de las variables de Bootstrap 4 y define sus propios
-@import "base/variables";
+// ====================================
+// Main SCSS
+// ====================================
 
+/*
+  Normalize
+*/
+// @import 'normalize.css';
+
+/*
+  Bootstrap
+*/
 // Conecte el código fuente SCSS requerido para Bootstrap 4
 @import "../../../node_modules/bootstrap/scss/_functions";
 @import "../../../node_modules/bootstrap/scss/_variables";
@@ -40,5 +49,40 @@
 @import "../../../node_modules/bootstrap/scss/_utilities";
 @import "../../../node_modules/bootstrap/scss/_print";
 
-// Conecta tus archivos SCSS
+
+// Anula los valores predeterminados de las variables de Bootstrap 4 y define sus propios
+
+/*
+  Base
+*/
+
+@import './base/variables';
+@import './base/base';
+@import './base/fonts';
+@import './base/general';
+
+/*
+  Utils
+*/
+
+@import './utils/mixins';
+
+/*
+  Components
+*/
+
+
+/*
+  Layout
+*/
+
+
+/*
+  Pages
+*/
+
+
+/*
+  Custom
+*/
 @import "custom";

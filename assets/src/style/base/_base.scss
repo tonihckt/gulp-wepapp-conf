@@ -1,0 +1,19 @@
+// ====================================
+// Base
+// ====================================
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system;
+  background-color: aqua;
+  font-feature-settings: "palt"; /* プロポーショナルメトリクスを有効に */
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}

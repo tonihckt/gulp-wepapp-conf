@@ -1,0 +1,43 @@
+// ====================================
+// General
+// ====================================
+
+html {
+    margin: 0;
+	padding: 0;
+}
+body {
+	font-family: $font-brand;
+	background: $white;
+	font-size: 16px;
+	line-height: 1.8;
+	letter-spacing: 0.1em;
+	font-weight: 600;
+	color: lighten($color-title,20%);
+	color: $color-title;
+	&.menu-show {
+		overflow: hidden;
+		position: fixed;
+		height: 100%;
+		width: 100%;
+	}
+}
+a {
+	transition: .3s all ease;
+	color: $primary;
+	&:hover, &:focus {
+		text-decoration: none;
+		color: $primary;
+		outline: none !important;
+	}
+}
+h1, h2, h3, h4, h5,
+.h1, .h2, .h3, .h4, .h5 {
+	line-height: 1.5;
+	color: $color-title;
+	font-weight: 900;
+}
+
+.text-primary {
+	color: $primary!important;
+}
