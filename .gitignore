@@ -67,7 +67,7 @@ node_modules
 ######################################
 /README.html
 /dist/
-# assets/build/
+assets/build/
 
 # PhpStrom Project Files #
 ######################################
